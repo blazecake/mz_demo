@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/setting_bg"
+	>
+	
+	<com.iceman.test.listview.DragListView
+		android:id="@+id/dzh_del_win_show_all"
+		android:layout_width="fill_parent"
+		android:cacheColorHint="@color/touming_color"
+		android:listSelector="@drawable/listview_item_bk"
+		android:layout_height="@dimen/custom_select_win_listview_height"
+		/>
+	
+</RelativeLayout>

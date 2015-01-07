@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+<EditText 
+    android:id="@+id/event_et_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="事件标题"
+    />
+<EditText 
+    android:id="@+id/event_et_title_update"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="更新标题"
+    />
+<EditText 
+    android:id="@+id/event_et_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="事件内容"
+    />
+<EditText 
+    android:id="@+id/event_et_alarm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="提前闹铃时间（分钟）"
+    />
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="确定"
+    android:onClick="onConfirm"
+    />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">支付宝SDK DEMO</string>
+	<string name="settings">设置</string>
+	<string name="update">升级</string>
+	<string name="check_update">查询升级</string>
+	<string name="download">下载</string>
+	<string name="install">安装</string>
+	<string name="result">返回值</string>
+	<string name="launch_preferences">启动设置</string>
+	<string name="preference_attributes">属性设置</string>
+	<string name="global_preference">全局设置</string>
+	<string name="global_preference_summary">安全支付服务和DEMO的通用设置</string>
+	<string name="remote_call_failed">Failure calling remote service</string>
+	<string-array name="launch_list_entries">
+		<item>外部商户订单</item>
+		<item>远程订单</item>
+	</string-array>
+	<string name="order_mode">订单模式</string>
+	<string name="popup_result">显示返回值</string>
+	
+	<string name="result_status_title">Result Status : </string>
+	<string name="memo_title">Memo : </string>
+	<string name="result_title">Result : </string>
+	<string name="check_result_title">Check Sign Result : </string>
+	<string name="external_token_title">External Token</string>
+	<string name="trade_number_title">Trade Number</string>
+	<string name="payPhaseId_title">Pay PhaseId</string>
+	<string name="taobao_pay">订单支付</string>
+	<string name="taobao_add">增加订单</string>
+	<string name="taobao_reset">订单重置</string>
+	<string name="start_order">打开订单页面</string>
+	<string name="not_null">不能为空</string>
+	<string name="extern_partner">外部商户订单</string>
+	
+	
+	
+	<string name="user_id">USER ID</string>
+	<string name="btn_logon">快速登录</string>
+	<string name="data_auth">数据授权</string>
+	<string name="name">姓名</string>
+	<string name="gender">性别</string>
+	<string name="certinfo">证件</string>
+	<string name="email">邮箱</string>
+	<string name="mobile">电话</string>
+	<string name="address">地址</string>
+	<string name="logonId">LogonId</string>
+	
+	
+</resources>

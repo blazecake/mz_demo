@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/edit_my_stock_list_item_height"
+    android:minHeight="@dimen/edit_my_stock_list_item_height" >
+
+    <RelativeLayout
+        android:id="@+id/item_code_layout"
+        android:layout_width="@dimen/edit_my_stock_list_text_width"
+        android:layout_height="@dimen/edit_my_stock_list_item_height"
+        android:layout_alignParentLeft="true"
+        android:minHeight="@dimen/edit_my_stock_list_item_height"
+        android:minWidth="@dimen/edit_my_stock_list_text_width" >
+
+        <TextView
+            android:id="@+id/dzh_delete_item_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/dip20"
+            android:singleLine="true"
+            android:textColor="@color/symbol_code_color"
+            android:textSize="@dimen/edit_my_stock_list_textsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_name_layout"
+        android:layout_width="@dimen/edit_my_stock_list_text_width"
+        android:layout_height="@dimen/edit_my_stock_list_item_height"
+        android:layout_toRightOf="@id/item_code_layout"
+        android:minHeight="@dimen/edit_my_stock_list_item_height"
+        android:minWidth="@dimen/edit_my_stock_list_text_width" >
+
+        <TextView
+            android:id="@+id/dzh_delete_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/dip20"
+            android:singleLine="true"
+            android:textColor="@color/edit_stock_name_color"
+            android:textSize="@dimen/edit_my_stock_list_textsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dzh_delete_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:layout_marginRight="@dimen/dip10"
+        android:background="@drawable/win_item_delete"
+        />
+
+    <ImageView
+        android:id="@+id/move_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dip10"
+        android:layout_toLeftOf="@id/dzh_delete_item_delete"
+        android:clickable="true"
+        android:background="@drawable/edit_move"
+        />
+
+</RelativeLayout>

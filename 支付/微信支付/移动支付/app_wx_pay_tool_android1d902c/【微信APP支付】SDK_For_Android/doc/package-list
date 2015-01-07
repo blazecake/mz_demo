@@ -1,0 +1,5 @@
+com.tencent.mm.sdk.constants
+com.tencent.mm.sdk.modelbase
+com.tencent.mm.sdk.modelmsg
+com.tencent.mm.sdk.modelpay
+com.tencent.mm.sdk.openapi

@@ -1,0 +1,5 @@
+C:\Users\davidzhu\Desktop\需要修正的退款对账demo\c#\tenpay_api_b2c\tenpayLib\bin\Debug\tenpayLib.dll
+C:\Users\davidzhu\Desktop\需要修正的退款对账demo\c#\tenpay_api_b2c\tenpayLib\bin\Debug\tenpayLib.pdb
+C:\Users\davidzhu\Desktop\需要修正的退款对账demo\c#\tenpay_api_b2c\tenpayLib\obj\Debug\tenpayLib.csprojResolveAssemblyReference.cache
+C:\Users\davidzhu\Desktop\需要修正的退款对账demo\c#\tenpay_api_b2c\tenpayLib\obj\Debug\tenpayLib.dll
+C:\Users\davidzhu\Desktop\需要修正的退款对账demo\c#\tenpay_api_b2c\tenpayLib\obj\Debug\tenpayLib.pdb
