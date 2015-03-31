@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.androidgifdemo.view.MyEditTextEx
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.androidgifdemo.view.MyTextViewEx
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/btn_gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择表情" />
+
+</LinearLayout>
