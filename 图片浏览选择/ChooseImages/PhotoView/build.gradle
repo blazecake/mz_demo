@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile "com.android.support:support-v4:20.+"
+}
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 19
+    }
+}

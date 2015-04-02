@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+//        applicationId "com.nostra13.universalimageloader"
+        minSdkVersion 5
+        targetSdkVersion 19
+        versionCode 38
+        versionName "1.9.3"
+    }
+}
